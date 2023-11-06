@@ -1,0 +1,129 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos de los productos */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 48%;
+    text-align: center;
+}
+
+.producto h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos del carrito */
+.carrito {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+#carrito-menu {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#carrito-menu h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+#carrito-lista-menu li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.carrito-imagen {
+    max-width: 50px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.carrito-nombre {
+    font-weight: bold;
+}
+
+.carrito-precio {
+    float: right;
+}
+
+/* Estilos del botón de añadir al carrito */
+.añadir.al.carrito {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.añadir.al.carrito:hover {
+    background-color: #ff3300;
+}
+
+/* Estilos para el menú del carrito cuando está oculto por defecto */
+#carrito-menu {
+    display: none;
+    /* Otros estilos... */
+}
+
+/* Estilos para el menú del carrito cuando está visible */
+#carrito-menu.visible {
+    display: block;
+    /* Otros estilos... */
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tu-archivo-de-estilos.css">
+    <title>Tienda</title>
+</head>
+<body>
+    <header>
+        <h1>Tienda</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="products.html">Productos</a></li>
+                <li><a href="cart.html">Carrito</a></li>
+                <li><a href="contact.html">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="productos">
+            <article class="producto">
+                <a href="USP.html">
+                    <img src="https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo6m1FBRp3_bGcjhQ09-jq5WYh8j_OrfdqWhe5sN4mOTE8bP5gVO8vywwMiukcZjEcVc5M1CG-1jtyLi9jJW97pzBmnM27nQlsSvfnkGzhU1OPeY8h6CeVxzAUEsa6pHf/360fx360f" alt="Imagen del producto 1">
+                </a>
+                <h2>USP-S | Muerte confirmada</h2>
+                <p>Su estado es MW (Minimal Wear)</p>
+                <p>Precio: $100</p>
+                <button class="añadir al carrito" data-precio="100">Añadir al carrito</button>
+            </article>
+            
+
+            <article class="producto-2">
+                <img src="https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FAR17P7NdTRH-t26q4SZlvD7PYTQgXtu5Mx2gv3--Y3nj1H6qBFvMWHyIo7Adw9raF6GrlK9lLi-jJO7tJ_JzyNh63F3sX_emUPkgQYMMLL2MDRAbQ/360fx360f" alt="Imagen del producto 2">
+                <h2>AWP | Tradición del dragón </h2>
+                <p>Su estado es FN (Factory New)</p>
+                <p>Precio: $200</p>
+                <button class="añadir al carrito" data-precio="200">Añadir al carrito</button>
+            </article>
+        </section>
+
+        <section class="carrito">
+            <button id="boton-mostrar-carrito">Mostrar Carrito</button>
+            <div id="carrito-menu">
+                <h3>Carrito de Compras</h3>
+                <ul id="carrito-lista-menu">
+                    <!-- Los productos agregados al carrito se mostrarán aquí -->
+                </ul>
+                <p>Total: <span id="total-precio-menu">0.00</span></p>
+                <a href="cart.html">Ir al carrito</a>
+            </div>
+        </section>
+        
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
